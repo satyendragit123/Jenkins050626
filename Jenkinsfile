@@ -9,5 +9,11 @@ pipeline {
                     url: 'https://github.com/satyendragit123/Jenkins050626.git'
             }
         }
+
+        stage('Hello') {
+            steps {
+                echo 'Jenkins Pipeline is working'
+            }
+        }
     }
 }
